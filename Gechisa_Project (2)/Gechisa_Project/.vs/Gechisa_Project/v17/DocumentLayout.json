@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cxisa\\Documents\\Projects-Dev\\Academics\\UCV\\VB_Gechisa_Project\\Gechisa_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{006639BD-29A6-4AAB-BB77-9A807B4BDB95}|Gechisa_Project.vbproj|c:\\users\\cxisa\\documents\\projects-dev\\academics\\ucv\\vb_gechisa_project\\gechisa_project\\views\\admin\\frmcrearviaje.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{006639BD-29A6-4AAB-BB77-9A807B4BDB95}|Gechisa_Project.vbproj|solutionrelative:views\\admin\\frmcrearviaje.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{006639BD-29A6-4AAB-BB77-9A807B4BDB95}|Gechisa_Project.vbproj|c:\\users\\cxisa\\documents\\projects-dev\\academics\\ucv\\vb_gechisa_project\\gechisa_project\\views\\vendedor\\frmventaboletos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{006639BD-29A6-4AAB-BB77-9A807B4BDB95}|Gechisa_Project.vbproj|solutionrelative:views\\vendedor\\frmventaboletos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{006639BD-29A6-4AAB-BB77-9A807B4BDB95}|Gechisa_Project.vbproj|c:\\users\\cxisa\\documents\\projects-dev\\academics\\ucv\\vb_gechisa_project\\gechisa_project\\views\\vendedor\\frmventaboletos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{006639BD-29A6-4AAB-BB77-9A807B4BDB95}|Gechisa_Project.vbproj|solutionrelative:views\\vendedor\\frmventaboletos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{006639BD-29A6-4AAB-BB77-9A807B4BDB95}|Gechisa_Project.vbproj|c:\\users\\cxisa\\documents\\projects-dev\\academics\\ucv\\vb_gechisa_project\\gechisa_project\\views\\gerente\\frmregistrarruta.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{006639BD-29A6-4AAB-BB77-9A807B4BDB95}|Gechisa_Project.vbproj|solutionrelative:views\\gerente\\frmregistrarruta.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{006639BD-29A6-4AAB-BB77-9A807B4BDB95}|Gechisa_Project.vbproj|c:\\users\\cxisa\\documents\\projects-dev\\academics\\ucv\\vb_gechisa_project\\gechisa_project\\views\\gerente\\frmregistrarruta.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{006639BD-29A6-4AAB-BB77-9A807B4BDB95}|Gechisa_Project.vbproj|solutionrelative:views\\gerente\\frmregistrarruta.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmVentaBoletos.vb",
+              "DocumentMoniker": "C:\\Users\\cxisa\\Documents\\Projects-Dev\\Academics\\UCV\\VB_Gechisa_Project\\Gechisa_Project\\views\\Vendedor\\frmVentaBoletos.vb",
+              "RelativeDocumentMoniker": "views\\Vendedor\\frmVentaBoletos.vb",
+              "ToolTip": "C:\\Users\\cxisa\\Documents\\Projects-Dev\\Academics\\UCV\\VB_Gechisa_Project\\Gechisa_Project\\views\\Vendedor\\frmVentaBoletos.vb",
+              "RelativeToolTip": "views\\Vendedor\\frmVentaBoletos.vb",
+              "ViewState": "AQIAAJgAAAAAAAAAAADwv54AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T20:12:26.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmVentaBoletos.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\cxisa\\Documents\\Projects-Dev\\Academics\\UCV\\VB_Gechisa_Project\\Gechisa_Project\\views\\Vendedor\\frmVentaBoletos.vb",
+              "RelativeDocumentMoniker": "views\\Vendedor\\frmVentaBoletos.vb",
+              "ToolTip": "C:\\Users\\cxisa\\Documents\\Projects-Dev\\Academics\\UCV\\VB_Gechisa_Project\\Gechisa_Project\\views\\Vendedor\\frmVentaBoletos.vb [Dise\u00F1o]",
+              "RelativeToolTip": "views\\Vendedor\\frmVentaBoletos.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T20:12:22.833Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmRegistrarRuta.vb",
+              "DocumentMoniker": "C:\\Users\\cxisa\\Documents\\Projects-Dev\\Academics\\UCV\\VB_Gechisa_Project\\Gechisa_Project\\views\\Gerente\\frmRegistrarRuta.vb",
+              "RelativeDocumentMoniker": "views\\Gerente\\frmRegistrarRuta.vb",
+              "ToolTip": "C:\\Users\\cxisa\\Documents\\Projects-Dev\\Academics\\UCV\\VB_Gechisa_Project\\Gechisa_Project\\views\\Gerente\\frmRegistrarRuta.vb",
+              "RelativeToolTip": "views\\Gerente\\frmRegistrarRuta.vb",
+              "ViewState": "AQIAADwAAAAAAAAAAAAmwGUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T20:06:13.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmRegistrarRuta.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\cxisa\\Documents\\Projects-Dev\\Academics\\UCV\\VB_Gechisa_Project\\Gechisa_Project\\views\\Gerente\\frmRegistrarRuta.vb",
+              "RelativeDocumentMoniker": "views\\Gerente\\frmRegistrarRuta.vb",
+              "ToolTip": "C:\\Users\\cxisa\\Documents\\Projects-Dev\\Academics\\UCV\\VB_Gechisa_Project\\Gechisa_Project\\views\\Gerente\\frmRegistrarRuta.vb [Dise\u00F1o]",
+              "RelativeToolTip": "views\\Gerente\\frmRegistrarRuta.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T20:06:11.161Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmCrearViaje.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\cxisa\\Documents\\Projects-Dev\\Academics\\UCV\\VB_Gechisa_Project\\Gechisa_Project\\views\\Admin\\frmCrearViaje.vb",
+              "RelativeDocumentMoniker": "views\\Admin\\frmCrearViaje.vb",
+              "ToolTip": "C:\\Users\\cxisa\\Documents\\Projects-Dev\\Academics\\UCV\\VB_Gechisa_Project\\Gechisa_Project\\views\\Admin\\frmCrearViaje.vb [Dise\u00F1o]",
+              "RelativeToolTip": "views\\Admin\\frmCrearViaje.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T19:45:49.914Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

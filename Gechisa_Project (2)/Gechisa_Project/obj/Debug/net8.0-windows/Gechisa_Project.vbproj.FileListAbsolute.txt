@@ -1,0 +1,66 @@
+C:\Proyectos .NET\Gechisa_Project\bin\Debug\net8.0-windows\Gechisa_Project.exe
+C:\Proyectos .NET\Gechisa_Project\bin\Debug\net8.0-windows\Gechisa_Project.deps.json
+C:\Proyectos .NET\Gechisa_Project\bin\Debug\net8.0-windows\Gechisa_Project.runtimeconfig.json
+C:\Proyectos .NET\Gechisa_Project\bin\Debug\net8.0-windows\Gechisa_Project.dll
+C:\Proyectos .NET\Gechisa_Project\bin\Debug\net8.0-windows\Gechisa_Project.pdb
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.Menu_Main.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.Resources.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.vbproj.GenerateResource.cache
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.AssemblyInfoInputs.cache
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.AssemblyInfo.vb
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.vbproj.CoreCompileInputs.cache
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.dll
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\refint\Gechisa_Project.dll
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.pdb
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.genruntimeconfig.cache
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\ref\Gechisa_Project.dll
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmLoginGerente.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarAdmin.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarBus.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarConductor.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarRuta.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarVendedor.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmOpciones.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarCiudad.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmCrearViaje.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmLoginAdmin.resources
+C:\Proyectos .NET\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmListarViaje.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\bin\Debug\net8.0-windows\Gechisa_Project.exe
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\bin\Debug\net8.0-windows\Gechisa_Project.deps.json
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\bin\Debug\net8.0-windows\Gechisa_Project.runtimeconfig.json
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\bin\Debug\net8.0-windows\Gechisa_Project.dll
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\bin\Debug\net8.0-windows\Gechisa_Project.pdb
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmCrearViaje.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmListarViaje.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmLoginAdmin.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmLoginGerente.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmOpciones.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarAdmin.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarBus.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarCiudad.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarConductor.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarRuta.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmRegistrarVendedor.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.Menu_Main.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.Resources.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmLoginVendedor.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.frmVentaBoletos.resources
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.vbproj.GenerateResource.cache
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.AssemblyInfoInputs.cache
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.AssemblyInfo.vb
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.vbproj.CoreCompileInputs.cache
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.dll
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\refint\Gechisa_Project.dll
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.pdb
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.genruntimeconfig.cache
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\ref\Gechisa_Project.dll
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_Project.vbproj.AssemblyReference.cache
+C:\Users\cxisa\Documents\Projects-Dev\Academics\UCV\VB_Gechisa_Project\Gechisa_Project\obj\Debug\net8.0-windows\Gechisa_.EC8FC69F.Up2Date

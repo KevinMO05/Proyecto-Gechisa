@@ -1,0 +1,264 @@
+-- Create database TICKET_MANAGEMENT_GECHISA
+CREATE DATABASE TICKET_MANAGEMENT_GECHISA
+go
+
+USE TICKET_MANAGEMENT_GECHISA
+go
+
+-- Create STATUS tables
+CREATE TABLE STATUS_EMPLOYEE (
+    status CHAR(1) NOT NULL PRIMARY KEY,
+    description VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE STATUS_BUS (
+    status CHAR(1) NOT NULL PRIMARY KEY,
+    description VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE STATUS_ROUTE (
+    status CHAR(1) NOT NULL PRIMARY KEY,
+    description VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE STATUS_RESERVE (
+    status CHAR(1) NOT NULL PRIMARY KEY,
+    description VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE STATUS_TRIP (
+    status CHAR(1) NOT NULL PRIMARY KEY,
+    description VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE STATUS_TICKET (
+    status CHAR(1) NOT NULL PRIMARY KEY,
+    description VARCHAR(50) NOT NULL
+);
+
+-- Insert data into STATUS tables
+INSERT INTO STATUS_EMPLOYEE (status, description) VALUES
+('A', 'Active'),
+('I', 'Inactive'),
+('X', 'Deleted');
+
+INSERT INTO STATUS_BUS (status, description) VALUES
+('A', 'Active'),
+('I', 'Inactive'),
+('X', 'Deleted');
+
+INSERT INTO STATUS_ROUTE (status, description) VALUES
+('A', 'Active'),
+('I', 'Inactive'),
+('X', 'Deleted');
+
+INSERT INTO STATUS_RESERVE (status, description) VALUES
+('U', 'Unpaid'),
+('P', 'Paid'),
+('X', 'Cancelled'),
+('R', 'Refunded');
+
+INSERT INTO STATUS_TRIP (status, description) VALUES
+('P', 'Pending'),
+('S', 'Started'),
+('C', 'Completed'),
+('X', 'Cancelled');
+
+INSERT INTO STATUS_TICKET (status, description) VALUES
+('U', 'Unpaid'),
+('P', 'Paid'),
+('X', 'Cancelled'),
+('B', 'Boarded');
+
+-- Create PERSON table
+CREATE TABLE PERSON (
+    DNI_Person CHAR(8) NOT NULL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NULL,
+    address VARCHAR(50) NULL,
+    phone CHAR(9) NULL
+);
+
+-- Create CLIENT table
+CREATE TABLE CLIENT (
+    ID_Client CHAR(11) NOT NULL PRIMARY KEY,
+    FK_DNI_Person CHAR(8) NOT NULL,
+	password VARBINARY(64) NULL,
+    FOREIGN KEY (FK_DNI_Person) REFERENCES PERSON(DNI_Person),
+	CHECK (LEFT(ID_Client, 3) = 'CLI')
+);
+
+-- Create EMPLOYEE table
+CREATE TABLE EMPLOYEE ( 
+    ID_Employee CHAR(11) NOT NULL PRIMARY KEY,
+    FK_DNI_Person CHAR(8) NOT NULL,
+    status CHAR(1) NOT NULL DEFAULT 'A',
+    FOREIGN KEY (FK_DNI_Person) REFERENCES PERSON(DNI_Person),
+    FOREIGN KEY (status) REFERENCES STATUS_EMPLOYEE(status),
+	CHECK (LEFT(ID_Employee, 3) = 'EMP')
+);
+
+-- Create GERENT table (not executed)
+CREATE TABLE GERENT (
+	ID_Gerent CHAR(11) NOT NULL PRIMARY KEY,
+	FK_ID_Employee CHAR(11) NOT NULL,
+	password VARBINARY(64),
+    FOREIGN KEY (FK_ID_Employee) REFERENCES EMPLOYEE(ID_Employee),
+    CHECK (LEFT(ID_Gerent, 3) = 'GER')
+);
+
+-- Create CITY table
+CREATE TABLE CITY (
+	ID_City INT IDENTITY(1,1) PRIMARY KEY,
+	name VARCHAR(50) NOT NULL,
+);
+
+-- Create ADMINISTRATOR table
+CREATE TABLE ADMINISTRATOR (
+	ID_Administrator CHAR(11) NOT NULL PRIMARY KEY,
+	FK_ID_Employee CHAR(11) NOT NULL,
+	FK_ID_City INT NOT NULL,
+	password VARBINARY(64),
+    FOREIGN KEY (FK_ID_Employee) REFERENCES EMPLOYEE(ID_Employee),
+	FOREIGN KEY (FK_ID_City) REFERENCES CITY(ID_City),
+    CHECK (LEFT(ID_Administrator, 3) = 'ADM')
+);
+
+-- Create SALESPERSON table
+CREATE TABLE SALESPERSON (
+    ID_Salesperson CHAR(11) NOT NULL PRIMARY KEY,
+	FK_ID_Employee CHAR(11) NOT NULL,
+	FK_ID_City INT NOT NULL,
+	password VARBINARY(64),
+    FOREIGN KEY (FK_ID_Employee) REFERENCES EMPLOYEE(ID_Employee),
+	FOREIGN KEY (FK_ID_City) REFERENCES CITY(ID_City),
+    CHECK (LEFT(ID_Salesperson, 3) = 'SAL')
+);
+
+-- Create DRIVER table
+CREATE TABLE DRIVER (
+    ID_Driver CHAR(11) NOT NULL PRIMARY KEY,
+    FK_ID_Employee CHAR(11) NOT NULL,
+    license_number CHAR(9),
+    FOREIGN KEY (FK_ID_Employee) REFERENCES EMPLOYEE(ID_Employee),
+    CHECK (LEFT(ID_Driver, 3) = 'DRI')
+);
+
+-- Create BUS table
+CREATE TABLE BUS (
+    ID_Bus CHAR(6) NOT NULL PRIMARY KEY,
+    brand VARCHAR(50) NOT NULL,
+    model VARCHAR(50) NOT NULL,
+    seats_count INT NOT NULL,
+    status CHAR(1) NOT NULL DEFAULT 'A',
+    FOREIGN KEY (status) REFERENCES STATUS_BUS(status)
+);
+
+-- Create ROUTE table
+CREATE TABLE ROUTE (
+    ID_Route INT IDENTITY(1,1) PRIMARY KEY,
+	FK_ID_Origin_City INT NOT NULL,
+    FK_ID_Destination_City INT NOT NULL,
+	default_price MONEY NOT NULL,
+    status CHAR(1) NOT NULL DEFAULT 'A',
+    FOREIGN KEY (status) REFERENCES STATUS_ROUTE(status),
+	FOREIGN KEY (FK_ID_Origin_City) REFERENCES CITY(ID_City),
+    FOREIGN KEY (FK_ID_Destination_City) REFERENCES CITY(ID_City),
+);
+
+CREATE TABLE RESERVE (
+    ID_Reserve INT IDENTITY(1,1) PRIMARY KEY,
+    FK_ID_Client CHAR(11) NOT NULL,
+    FK_ID_Route INT NOT NULL,
+	FK_ID_Salesperson CHAR(11) NULL,
+	price MONEY NOT NULL,
+	reserve_dateTime DATETIME NOT NULL,
+    status CHAR(1) NOT NULL DEFAULT 'U',
+    FOREIGN KEY (status) REFERENCES STATUS_RESERVE(status),
+	FOREIGN KEY (FK_ID_Client) REFERENCES CLIENT(ID_Client),
+    FOREIGN KEY (FK_ID_Route) REFERENCES ROUTE(ID_Route),
+    FOREIGN KEY (FK_ID_Salesperson) REFERENCES SALESPERSON(ID_Salesperson)
+);
+
+-- Create TRIP table
+CREATE TABLE TRIP (
+    ID_Trip INT IDENTITY(1,1) PRIMARY KEY,
+    FK_ID_Route INT NOT NULL,
+    FK_ID_Bus CHAR(6) NOT NULL,
+    FK_ID_Driver CHAR(11) NOT NULL,
+    scheduled_departure_dateTime DATETIME NOT NULL,
+	actual_departure_dateTime DATETIME NULL,
+    arrival_dateTime DATETIME NULL,
+	price MONEY NOT NULL,
+    status CHAR(1) NOT NULL DEFAULT 'P',
+    FOREIGN KEY (status) REFERENCES STATUS_TRIP(status),
+	FOREIGN KEY (FK_ID_Route) REFERENCES ROUTE(ID_Route),
+    FOREIGN KEY (FK_ID_Bus) REFERENCES BUS(ID_Bus),
+    FOREIGN KEY (FK_ID_Driver) REFERENCES DRIVER(ID_Driver),
+);
+
+-- Create TICKET table
+CREATE TABLE TICKET (
+    ID_Ticket INT IDENTITY(1,1) PRIMARY KEY,
+    FK_ID_Client CHAR(11) NOT NULL,
+	FK_ID_Salesperson CHAR(11) NULL,
+    FK_ID_Trip INT NOT NULL,
+    ticket_dateTime DATETIME NOT NULL,
+	seat_number int NOT NULL,
+    status CHAR(1) NOT NULL DEFAULT 'U'
+    FOREIGN KEY (status) REFERENCES STATUS_TICKET(status),
+	FOREIGN KEY (FK_ID_Client) REFERENCES CLIENT(ID_Client),
+    FOREIGN KEY (FK_ID_Salesperson) REFERENCES SALESPERSON(ID_Salesperson),
+    FOREIGN KEY (FK_ID_Trip) REFERENCES TRIP(ID_Trip)
+);
+
+
+-- Create HISTORY tables
+CREATE TABLE HISTORY_EMPLOYEE (
+    ID_HISTORY_EMPLOYEE INT IDENTITY(1,1) PRIMARY KEY,
+    FK_ID_Employee CHAR(11) NOT NULL,
+    status CHAR(1) NOT NULL,
+    change_datetime DATETIME NOT NULL,
+    FOREIGN KEY (FK_ID_Employee) REFERENCES EMPLOYEE(ID_Employee)
+);
+
+CREATE TABLE HISTORY_BUS (
+    ID_HISTORY_BUS INT IDENTITY(1,1) PRIMARY KEY,
+    FK_ID_Bus CHAR(6) NOT NULL,
+    status CHAR(1) NOT NULL,
+    change_datetime DATETIME NOT NULL,
+    FOREIGN KEY (FK_ID_Bus) REFERENCES BUS(ID_Bus)
+);
+
+CREATE TABLE HISTORY_ROUTE (
+    ID_HISTORY_ROUTE INT IDENTITY(1,1) PRIMARY KEY,
+    FK_ID_Route INT NOT NULL,
+    status CHAR(1) NOT NULL,
+    change_datetime DATETIME NOT NULL,
+    FOREIGN KEY (FK_ID_Route) REFERENCES ROUTE(ID_Route)
+);
+
+CREATE TABLE HISTORY_RESERVE (
+    ID_HISTORY_RESERVE INT IDENTITY(1,1) PRIMARY KEY,
+    FK_ID_Reserve INT NOT NULL,
+    status CHAR(1) NOT NULL,
+    change_datetime DATETIME NOT NULL,
+    FOREIGN KEY (FK_ID_Reserve) REFERENCES RESERVE(ID_Reserve)
+);
+
+CREATE TABLE HISTORY_TRIP (
+    ID_HISTORY_TRIP INT IDENTITY(1,1) PRIMARY KEY,
+    FK_ID_Trip INT NOT NULL,
+    status CHAR(1) NOT NULL,
+    change_datetime DATETIME NOT NULL,
+    FOREIGN KEY (FK_ID_Trip) REFERENCES TRIP(ID_Trip)
+);
+
+CREATE TABLE HISTORY_TICKET (
+    ID_HISTORY_TICKET INT IDENTITY(1,1) PRIMARY KEY,
+    FK_ID_Ticket INT NOT NULL,
+    status CHAR(1) NOT NULL,
+    change_datetime DATETIME NOT NULL,
+    FOREIGN KEY (FK_ID_Ticket) REFERENCES TICKET(ID_Ticket)
+);

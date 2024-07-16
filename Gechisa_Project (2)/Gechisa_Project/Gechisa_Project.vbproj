@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <StartupObject>Gechisa_Project.My.MyApplication</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="views\Admin\frmLoginAdmin.vb" />
+    <Compile Update="views\Admin\frmCrearViaje.vb" />
+    <Compile Update="views\Gerente\frmRegistrarRuta.vb" />
+    <Compile Update="views\Gerente\frmRegistrarCiudad.vb" />
+    <Compile Update="views\Gerente\frmRegistrarBus.vb" />
+    <Compile Update="views\Gerente\frmRegistrarConductor.vb" />
+    <Compile Update="views\Gerente\frmRegistrarVendedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="My Project\Application.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Resources.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="views\Vendedor\frmLoginVendedor.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+</Project>

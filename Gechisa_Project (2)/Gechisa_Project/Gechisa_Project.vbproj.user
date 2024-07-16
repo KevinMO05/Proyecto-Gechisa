@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="views\Admin\frmCrearViaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Admin\frmListarViaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Admin\frmLoginAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Gerente\frmLoginGerente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Gerente\frmOpciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Gerente\frmRegistrarAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Gerente\frmRegistrarBus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Gerente\frmRegistrarCiudad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Gerente\frmRegistrarConductor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Gerente\frmRegistrarRuta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Menu_Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Vendedor\frmLoginVendedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="views\Vendedor\frmVentaBoletos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
